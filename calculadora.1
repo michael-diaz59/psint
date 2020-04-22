@@ -4,6 +4,7 @@ Algoritmo calculadora
 	escribir "1. para suma"
 	escribir "2. para resta"
 	escribir "3. para multiplicar"
+	escribir "4. para division"
 	leer o0
 	Segun o0 Hacer
 		1:
@@ -33,6 +34,15 @@ Algoritmo calculadora
 			leer n2
 			r=n1 * n2
 			escribir n1,"*",n2,"=",r
+		4:
+			escribir "bienbenido a la seccion de division"
+			definir r,n1,n2 como reales
+			escribir "ingrese un numero"
+			leer n1
+			escribir "ingrese otro numero"
+			leer n2
+			r=n1 / n2
+			escribir n1,"/",n2,"=",r
 		De Otro Modo:
 			escribir "eliga una opcion valida"
 	Fin Segun
