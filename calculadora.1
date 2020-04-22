@@ -1,10 +1,30 @@
 Algoritmo calculadora
-	
-	definir r,n1,n2 como reales
-	escribir "ingrese un numero"
-	leer n1
-	escribir "ingrese otro numero"
-	leer n2
-	r=n1 + n2
-	escribir n1,"+",n2,"=",r
+	definir o0 Como Entero
+	escribir "bienbenido a calculadora"
+	escribir "1. para suma"
+	escribir "2. para resta"
+	leer o0
+	Segun o0 Hacer
+		1:
+			escribir "bienbenido a la seccion de suma"
+			definir r,n1,n2 como reales
+			escribir "ingrese un numero"
+			leer n1
+			escribir "ingrese otro numero"
+			leer n2
+			r=n1 + n2
+			escribir n1,"+",n2,"=",r
+		2:
+			escribir "bienbenido a la seccion de resta"
+			definir r,n1,n2 como reales
+			escribir "ingrese un numero"
+			leer n1
+			escribir "ingrese otro numero"
+			leer n2
+			r=n1 - n2
+			escribir n1,"-",n2,"=",r
+			
+		De Otro Modo:
+			escribir "eliga una opcion valida"
+	Fin Segun
 FinAlgoritmo
